@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="background-image: player.trackAlbum.image">
+  <div id="app" style="background-image: player.trackAlbum.image">
     <div
       v-if="player.playing"
       class="now-playing"
